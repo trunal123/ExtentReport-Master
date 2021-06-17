@@ -1,0 +1,49 @@
+17 Jun 2021 13:04:24 INFO   [Log] - Logger invoked
+17 Jun 2021 13:04:24 INFO   [Log] - Chrome invoked
+17 Jun 2021 13:04:26 INFO   [Log] - Chrome browser instantiated
+17 Jun 2021 13:04:27 INFO   [SeleniumCommon] - Implicit wait applied on the driver for 30 seconds
+17 Jun 2021 13:04:30 INFO   [Log] - Web application launched: https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1%3Cmpl%3Ddefault%3Cmplcache%3D2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+17 Jun 2021 13:04:30 INFO   [Log] - Current Page Title: Gmail
+17 Jun 2021 13:04:30 INFO   [Log] - Current Title Matches with Expected Title.
+17 Jun 2021 13:04:30 INFO   [Log] - Username: ghatagepoonam5@gmail.com
+17 Jun 2021 13:04:30 INFO   [Log] - Password: Poonam@rs5
+17 Jun 2021 13:04:30 INFO   [Log] - Locator Type:- xpath Locator Value:-//input[@id='identifierId']
+17 Jun 2021 13:04:30 INFO   [Log] - Locator: By.xpath: //input[@id='identifierId']
+17 Jun 2021 13:04:30 INFO   [SeleniumCommon] - Page Load Status:complete
+17 Jun 2021 13:04:30 INFO   [Log] - Element found:-By.xpath: //input[@id='identifierId']
+17 Jun 2021 13:04:30 INFO   [SeleniumCommon] - Time:0 seconds
+17 Jun 2021 13:04:36 INFO   [Log] - Locator Type:- xpath Locator Value:-//*[@id="identifierNext"]
+17 Jun 2021 13:04:36 INFO   [Log] - Locator: By.xpath: //*[@id="identifierNext"]
+17 Jun 2021 13:04:36 INFO   [SeleniumCommon] - Page Load Status:complete
+17 Jun 2021 13:04:36 INFO   [Log] - Element found:-By.xpath: //*[@id="identifierNext"]
+17 Jun 2021 13:04:36 INFO   [SeleniumCommon] - Time:0 seconds
+17 Jun 2021 13:04:36 INFO   [Log] - Clicking on next Button
+17 Jun 2021 13:04:41 INFO   [Log] - Locator Type:- xpath Locator Value:-//input[@type='password']
+17 Jun 2021 13:04:41 INFO   [Log] - Locator: By.xpath: //input[@type='password']
+17 Jun 2021 13:04:41 INFO   [SeleniumCommon] - Page Load Status:complete
+17 Jun 2021 13:04:41 INFO   [Log] - Element found:-By.xpath: //input[@type='password']
+17 Jun 2021 13:04:41 INFO   [SeleniumCommon] - Time:0 seconds
+17 Jun 2021 13:04:41 INFO   [Log] - Entered username and password
+17 Jun 2021 13:04:41 INFO   [Log] - Locator Type:- xpath Locator Value:-//*[@id="passwordNext"]
+17 Jun 2021 13:04:41 INFO   [Log] - Locator: By.xpath: //*[@id="passwordNext"]
+17 Jun 2021 13:04:41 INFO   [SeleniumCommon] - Page Load Status:complete
+17 Jun 2021 13:04:41 INFO   [Log] - Element found:-By.xpath: //*[@id="passwordNext"]
+17 Jun 2021 13:04:41 INFO   [SeleniumCommon] - Time:0 seconds
+17 Jun 2021 13:04:41 INFO   [Log] - Clicking on next Button
+17 Jun 2021 13:04:41 INFO   [Log] - button clicked
+17 Jun 2021 13:05:02 INFO   [Log] - Actual title:Inbox (1) - ghatagepoonam5@gmail.com - Gmail
+17 Jun 2021 13:05:02 INFO   [Log] - user logged in  is matching
+17 Jun 2021 13:05:08 INFO   [Log] - Search by Id poonamghatage21@gmail.com
+17 Jun 2021 13:05:23 INFO   [Log] - Locator Type:- xpath Locator Value:-(//div[@class="au"] //div[contains(text(),"Inbox")])[2]
+17 Jun 2021 13:05:23 INFO   [Log] - Locator: By.xpath: (//div[@class="au"] //div[contains(text(),"Inbox")])[2]
+17 Jun 2021 13:05:23 INFO   [SeleniumCommon] - Page Load Status:complete
+17 Jun 2021 13:05:23 INFO   [Log] - Element found:-By.xpath: (//div[@class="au"] //div[contains(text(),"Inbox")])[2]
+17 Jun 2021 13:05:23 INFO   [SeleniumCommon] - Time:0 seconds
+17 Jun 2021 13:05:28 INFO   [Log] - Locator Type:- xpath Locator Value:-//a[@href="https://www.flickonclick.com/checkout-these-exciting-latest-offers-from-jiomart/"]
+17 Jun 2021 13:05:28 INFO   [Log] - Locator: By.xpath: //a[@href="https://www.flickonclick.com/checkout-these-exciting-latest-offers-from-jiomart/"]
+17 Jun 2021 13:05:28 INFO   [SeleniumCommon] - Page Load Status:complete
+17 Jun 2021 13:05:28 INFO   [Log] - Element found:-By.xpath: //a[@href="https://www.flickonclick.com/checkout-these-exciting-latest-offers-from-jiomart/"]
+17 Jun 2021 13:05:28 INFO   [SeleniumCommon] - Time:0 seconds
+17 Jun 2021 13:05:29 INFO   [Log] - Click on link available in the mail
+17 Jun 2021 13:05:32 INFO   [Log] - Open link in new tab
+17 Jun 2021 13:05:35 INFO   [Log] - link is matching
