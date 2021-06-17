@@ -90,6 +90,7 @@ public class Homepage1 extends SeleniumCommon {
         SeleniumCommon.driver.quit();
         Log.info("browser is closed successfully");
         ExtentTestManager.reporterLog("Browser closed");
+        Log.info("logout")
     }
 
 
