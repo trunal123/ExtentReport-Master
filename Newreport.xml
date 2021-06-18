@@ -10,7 +10,7 @@
         <classes>
 
             <class name="testscript.LoginTest"/>
-           <class name="testscript.Homepagetest"/>
+            <!-- <class name="testscript.Homepagetest"/>-->
             <class name="testscript.Homepage1test"/>
 
         </classes>

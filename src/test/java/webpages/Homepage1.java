@@ -3,9 +3,12 @@ package webpages;
 import Reusablecomponent.ExtentTestManager;
 import Reusablecomponent.Log;
 import Reusablecomponent.SeleniumCommon;
+import net.bytebuddy.asm.Advice;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 
+import java.security.Key;
 import java.util.ArrayList;
 
 public class Homepage1 extends SeleniumCommon {
@@ -63,15 +66,17 @@ public class Homepage1 extends SeleniumCommon {
         SeleniumCommon.waitForSecond(5);
         Log.info("test1");
         driver.findElement(By.xpath("//a[@href=\"https://mail.google.com/mail/u/0/#drafts\"]")).click();
-        SeleniumCommon.waitForSecond(5);
+        SeleniumCommon.waitForSecond(10);
         Log.info("test2");
-        driver.findElement(By.xpath("(//tr[@class=\"zA yrs\"]//td[@class=\"oZ-x3 xY\"] //div[@class=\"oZ-jc T-Jo J-J5-Ji\"])[1]")).click();
-        SeleniumCommon.waitForSecond(5);
+        driver.findElement(By.xpath("//tr[@class ='zA yO'] // div[@class=\"oZ-jc T-Jo J-J5-Ji \"] //div")).sendKeys(Keys.ENTER);
         Log.info("test3");
-        driver.findElement(By.xpath("//div[@aria-label=\"Move to Inbox\"]")).click();
-        SeleniumCommon.waitForSecond(5);
+        //driver.findElement(By.xpath("(//tr[@class=\"zA yrs\"]//td[@class=\"oZ-x3 xY\"] //div[@class=\"oZ-jc T-Jo J-J5-Ji\"])[1]")).click();
+        //SeleniumCommon.waitForSecond(5);
         Log.info("test4");
-        driver.findElement(By.xpath("//span[@class=\"nU n1\"] //*[contains(text(),'Inbox')]")).click();
+        //driver.findElement(By.xpath("//div[@aria-label=\"Move to Inbox\"]")).click();
+        SeleniumCommon.waitForSecond(10);
+        Log.info("test5");
+
 
 
     }

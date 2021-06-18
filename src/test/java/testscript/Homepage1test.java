@@ -17,10 +17,10 @@ public class Homepage1test {
         Homepage1.draft_move_into_inbox();
     }
 
-  /*  @Test(description = "verified Logout")
+   @Test(description = "verified Logout",enabled = false)
     public void Homepage1_Testcase3(){
         Homepage1.LogOut();
-        }*/
+        }
 
 
 
